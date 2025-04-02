@@ -230,7 +230,7 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"✅ Attack Successfully Completed 🇮🇳 ip: {ip} port: {port} sec: {time}"
         else:
-            rresponse = "✅ Currently Available: /bgmi <ip> <port> <time>"  
+            response = "✅ Currently Available: /bgmi <ip> <port> <time>"  
     else:
         response = " ACCESS VAANGUDA SUNNI PUNDA 🤣."
 
